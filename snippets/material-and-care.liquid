@@ -1,6 +1,9 @@
 {% if metafields.custom.material_and_care %}
-  <details>
-    <summary>Material & Care</summary>
+  <details open>
+    <summary class="header__menu-item list-menu__item link focus-inset" style="padding-left: 0">
+      <span class="header__active-menu-item">Material & Care</span>
+      {{- 'icon-caret.svg' | inline_asset_content -}}
+    </summary>
     <p>
       {{ metafields.custom.material_and_care.value | newline_to_br }}
     </p>
