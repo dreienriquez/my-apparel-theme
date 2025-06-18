@@ -15,7 +15,7 @@
     style="--animation-order: {{ forloop.index }};"
   {% endif %}
 >
-  <div class="testimonial-card">
+  <div class="testimonial-card color-{{ section.settings.testimonial_color_scheme }}">
     {%- if testimonial.image != blank -%}
       <img
         class="testimonial-image"

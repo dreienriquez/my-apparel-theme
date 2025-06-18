@@ -19,11 +19,6 @@
     testimonial
     color-{{ section.settings.color_scheme }}
     gradient
-    {% unless section.settings.background_style == 'none'
-    and settings.text_boxes_border_thickness > 0
-    or settings.text_boxes_shadow_opacity > 0 %}
-      background-{{ section.settings.background_style }}
-    {% endunless %}
   "
 >
   <div
@@ -107,26 +102,6 @@
     },
     {
       "type": "header",
-      "content": "t:sections.featured-testimonial.settings.header_image.content"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
-        {
-          "value": "square",
-          "label": "t:sections.featured-testimonial.settings.image_ratio.options__3.label"
-        },
-        {
-          "value": "circle",
-          "label": "t:sections.featured-testimonial.settings.image_ratio.options__4.label"
-        }
-      ],
-      "default": "circle",
-      "label": "t:sections.featured-testimonial.settings.image_ratio.label"
-    },
-    {
-      "type": "header",
       "content": "t:sections.featured-testimonial.settings.header_layout.content"
     },
     {
@@ -146,24 +121,18 @@
       "label": "t:sections.featured-testimonial.settings.text_alignment.label"
     },
     {
-      "type": "select",
-      "id": "background_style",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.featured-testimonial.settings.background_style.options__1.label"
-        },
-        {
-          "value": "primary",
-          "label": "t:sections.featured-testimonial.settings.background_style.options__2.label"
-        }
-      ],
-      "default": "primary",
-      "label": "t:sections.featured-testimonial.settings.background_style.label"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-testimonial.settings.card.content"
     },
     {
       "type": "color_scheme",
-      "id": "color_scheme",
+      "id": "testimonial_color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
     },
@@ -200,17 +169,17 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.featured-testimonial.blocks.column.settings.image.label"
+          "label": "t:sections.featured-testimonial.blocks.testimonial.settings.image.label"
         },
         {
           "type": "textarea",
           "id": "text",
-          "label": "t:sections.featured-testimonial.blocks.column.settings.text.label"
+          "label": "t:sections.featured-testimonial.blocks.testimonial.settings.text.label"
         },
         {
           "type": "text",
           "id": "author",
-          "label": "t:sections.featured-testimonial.blocks.column.settings.author.label"
+          "label": "t:sections.featured-testimonial.blocks.testimonial.settings.author.label"
         }
       ]
     }

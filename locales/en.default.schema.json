@@ -1009,33 +1009,6 @@
         "header_layout": {
           "content": "Layout"
         },
-        "image_width": {
-          "label": "Width",
-          "options__1": {
-            "label": "One-third width of column"
-          },
-          "options__2": {
-            "label": "Half width of column"
-          },
-          "options__3": {
-            "label": "Full width of column"
-          }
-        },
-        "image_ratio": {
-          "label": "Ratio",
-          "options__1": {
-            "label": "Adapt to image"
-          },
-          "options__2": {
-            "label": "Portrait"
-          },
-          "options__3": {
-            "label": "Square"
-          },
-          "options__4": {
-            "label": "Circle"
-          }
-        },
         "text_alignment": {
           "label": "Column alignment",
           "options__1": {
@@ -1045,15 +1018,9 @@
             "label": "Center"
           }
         },
-        "background_style": {
-          "label": "Secondary background",
-          "options__1": {
-            "label": "None"
-          },
-          "options__2": {
-            "label": "Show as column background"
-          }
-        },
+        "card": {
+          "content": "Card"
+        }
       },
       "presets": {
         "name": "Featured testimonials"
