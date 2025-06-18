@@ -38,7 +38,11 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/casual-fashion-woman.jpg",
         "image_overlay_opacity": 20,
@@ -64,7 +68,9 @@
           }
         }
       },
-      "block_order": ["heading"],
+      "block_order": [
+        "heading"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -108,33 +114,35 @@
         "testimonial1": {
           "type": "testimonial",
           "settings": {
-            "author": "John Doe",
+            "image": "shopify://shop_images/man-looks-to-the-left-on-a-fall-day.jpg",
             "text": "Amazing quality and fast delivery. Will definitely order again!",
-            "image": "shopify://shop_images/casual-fashion-woman.jpg",
+            "author": "John Doe"
           }
         },
         "testimonial2": {
           "type": "testimonial",
           "settings": {
-            "author": "Jane Smith",
             "text": "I was skeptical at first, but the fit and fabric exceeded my expectations. The sizing guide was accurate and made the whole process super easy.",
+            "author": "Peter Piper"
           }
         },
         "testimonial3": {
           "type": "testimonial",
           "settings": {
-            "author": "Peter Piper",
+            "image": "shopify://shop_images/model-with-leather-jacket-over-shoulders.jpg",
             "text": "From browsing to checkout, the entire experience was smooth and intuitive. I've tried a lot of local brands, but this one hits the sweet spot between comfort, style, and affordability. The customer service was also very responsive when I asked about a size exchange. Highly recommended!",
-            "image": "shopify://shop_images/casual-fashion-woman.jpg",
+            "author": "Jane Smith"
           }
-        },
+        }
       },
-      "block_order": ["testimonial1", "testimonial2", "testimonial3"],
+      "block_order": [
+        "testimonial1",
+        "testimonial2",
+        "testimonial3"
+      ],
       "settings": {
         "title": "What our customers say",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "circle",
         "text_alignment": "left",
         "color_scheme": "scheme-2",
         "testimonial_color_scheme": "scheme-3",
@@ -163,7 +171,11 @@
           "settings": {}
         }
       },
-      "block_order": ["heading_VrPA36", "paragraph_QAn6zp", "email_form_UQqXT3"],
+      "block_order": [
+        "heading_VrPA36",
+        "paragraph_QAn6zp",
+        "email_form_UQqXT3"
+      ],
       "name": "t:sections.newsletter.presets.name",
       "settings": {
         "color_scheme": "",
@@ -173,5 +185,11 @@
       }
     }
   },
-  "order": ["image_banner", "rich_text", "featured_collection", "featured_testimonial", "newsletter_rzHhwB"]
+  "order": [
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "featured_testimonial",
+    "newsletter_rzHhwB"
+  ]
 }
