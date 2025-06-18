@@ -147,6 +147,31 @@
     ]
   },
   {
+    "name": "t:settings_schema.testimonial_typography.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.testimonial_typography.settings.testimonial.content"
+      },
+      {
+        "type": "font_picker",
+        "id": "testimonial_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.testimonial_typography.settings.testimonial_font.label"
+      },
+      {
+        "type": "range",
+        "id": "testimonial_scale",
+        "min": 100,
+        "max": 150,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.testimonial_typography.settings.testimonial_scale.label",
+        "default": 100
+      },
+    ]
+  },
+  {
     "name": "t:settings_schema.layout.name",
     "settings": [
       {

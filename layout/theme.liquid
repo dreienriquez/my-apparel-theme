@@ -112,6 +112,9 @@
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
+        --font-testimonial-family: {{ settings.testimonial_font.family }}, {{ settings.testimonial_font.fallback_families }};
+        --font-testimonial-scale: {{ settings.testimonial_scale | divided_by: 100.0 }};
+
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
         --media-border-width: {{ settings.media_border_thickness }}px;

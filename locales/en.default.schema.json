@@ -196,6 +196,20 @@
         }
       }
     },
+    "testimonial_typography": {
+      "name": "Testimonial Typography",
+      "settings": {
+        "testimonial": {
+          "content": "Testimonial"
+        },
+        "testimonial_font": {
+          "label": "Font"
+        },
+        "testimonial_scale": {
+          "label": "Scale"
+        },
+      }
+    },
     "buttons": {
       "name": "Buttons"
     },
