@@ -97,7 +97,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Get free nationwide shipping on all orders over ₱1,499.</p>",
+            "text": "<p>Get free nationwide shipping on all orders over ₱2,499.</p>",
             "link_label": "",
             "link": ""
           }
