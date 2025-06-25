@@ -9,41 +9,91 @@
  */
 {
   "sections": {
-    "image_banner_k3fRnW": {
-      "type": "image-banner",
+    "main": {
+      "type": "main-product",
       "blocks": {
-        "heading_T9tTyg": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Active Edge PH</strong>",
-            "heading_size": "hxl"
-          }
-        },
-        "text_W3VkUx": {
+        "text_YUWgTx": {
           "type": "text",
           "settings": {
-            "text": "<em>Elevate your Every Move</em>",
-            "text_style": "subtitle"
+            "text": "Urban Threads Co.",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "complementary_86gex4": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "heading_T9tTyg",
-        "text_W3VkUx"
+        "text_YUWgTx",
+        "title",
+        "price",
+        "variant_picker",
+        "description",
+        "quantity_selector",
+        "buy_buttons",
+        "complementary_86gex4",
+        "share"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_nnvoy2nnvoy2nnvo.png",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-4",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "right",
+        "image_zoom": "hover",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
     "multicolumn": {
@@ -89,81 +139,9 @@
         "padding_bottom": 36
       }
     },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "description",
-        "caption",
-        "price",
-        "quantity_selector",
-        "variant_picker",
-        "buy_buttons",
-        "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "color_scheme": "",
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "mobile_thumbnails": "hide",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": true,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -179,12 +157,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_banner_k3fRnW": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_nnvoy2nnvoy2nnvo.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "image_banner_k3fRnW",
-    "multicolumn",
     "main",
-    "related-products"
+    "multicolumn",
+    "related-products",
+    "image_banner_k3fRnW"
   ]
 }
