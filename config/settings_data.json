@@ -140,7 +140,7 @@
     "blocks": {
       "16477348613150133823": {
         "type": "shopify://apps/unlimited-bundles/blocks/script-app-block/d33d0f48-dee0-42a0-b156-2a5dce91814a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "reload_on_line_item_properties": false,
           "disable_reload_on_cart_update": false,
