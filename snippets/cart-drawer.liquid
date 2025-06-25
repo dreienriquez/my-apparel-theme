@@ -247,7 +247,10 @@
                             {%- endif -%}
 
                             {%- if item.variant.available and item.unit_price_measurement -%}
-                              {% render 'unit-price', price: item.unit_price, measurement: item.unit_price_measurement %}
+                              {% render 'unit-price',
+                                price: item.unit_price,
+                                measurement: item.unit_price_measurement
+                              %}
                             {%- endif -%}
                           </div>
                         </td>
@@ -441,6 +444,7 @@
             </p>
           </div>
           <div id="CartDrawer-CartErrors" role="alert"></div>
+          {% render 'free-shipping-status', font_size: '12px', cart_total: cart.total_price %}
         </form>
       </cart-drawer-items>
       <div class="drawer__footer">

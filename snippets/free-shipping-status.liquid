@@ -1,0 +1,37 @@
+{% assign shipping_value = 149900 %}
+{% assign font_size = font_size | default: '16px' %}
+{% assign shipping_value_left = shipping_value | minus: cart_total %}
+<div class="shipping_notice_wrapper" style="--snippet-font-size: {{ font_size }};">
+  {% if shipping_value_left > 0 %}
+    <p class="free_shipping_notice warning">
+      Spend {{ shipping_value_left | money }} more to qualify for free shipping!
+    </p>
+    <p class="center">
+      <a class="underlined-link" href="/collections/all">Continue shopping</a> to add more products to your cart and
+      receive free shipping for orders over ₱1,499.00
+    </p>
+  {%- else -%}
+    <p class="free_shipping_notice">Congratulations! You qualified for free shipping!</p>
+  {% endif %}
+</div>
+<style>
+  .shipping_notice_wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      font-size: var(--snippet-font-size);
+    }
+  }
+  .free_shipping_notice {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+  }
+  .warning {
+    color: #ff0000;
+  }
+</style>

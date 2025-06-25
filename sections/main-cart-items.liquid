@@ -426,6 +426,7 @@
         {{ 'accessibility.loading' | t }}
       </p>
     </form>
+    {% render 'free-shipping-status', cart_total: cart.total_price %}
   </div>
 </cart-items>
 
