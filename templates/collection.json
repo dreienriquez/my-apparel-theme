@@ -73,7 +73,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "windbreaker",
+        "product": "cozy-knit-cardigan",
         "color_scheme": "scheme-2",
         "secondary_background": false,
         "media_size": "medium",
