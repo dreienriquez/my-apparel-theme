@@ -45,10 +45,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "175088787442f0c47c": {
+      "type": "apps",
+      "blocks": {
+        "unlimited_bundles_embed_all_tt6dpJ": {
+          "type": "shopify://apps/unlimited-bundles/blocks/embed-all/d33d0f48-dee0-42a0-b156-2a5dce91814a",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "unlimited_bundles_embed_all_tt6dpJ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "featured_collection_PB93DW"
+    "featured_collection_PB93DW",
+    "175088787442f0c47c"
   ]
 }
