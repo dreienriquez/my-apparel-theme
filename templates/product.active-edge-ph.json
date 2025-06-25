@@ -9,47 +9,41 @@
  */
 {
   "sections": {
-    "rich_text_zcy3dA": {
-      "type": "rich-text",
+    "image_banner_k3fRnW": {
+      "type": "image-banner",
       "blocks": {
-        "heading_YprfWw": {
+        "heading_T9tTyg": {
           "type": "heading",
           "settings": {
-            "heading": "Active Edge PH",
-            "heading_size": "h0"
+            "heading": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "text_ieL8cM": {
+        "text_W3VkUx": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_wMUhcp": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_YprfWw",
-        "text_ieL8cM",
-        "button_wMUhcp"
+        "heading_T9tTyg",
+        "text_W3VkUx"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify://shop_images/Gemini_Generated_Image_nnvoy2nnvoy2nnvo.png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "main": {
@@ -188,7 +182,7 @@
     }
   },
   "order": [
-    "rich_text_zcy3dA",
+    "image_banner_k3fRnW",
     "main",
     "multicolumn",
     "related-products"
