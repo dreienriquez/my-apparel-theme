@@ -9,111 +9,34 @@
  */
 {
   "sections": {
-    "image_banner_k3fRnW": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_T9tTyg": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Active Edge PH</strong>",
-            "heading_size": "hxl"
-          }
-        },
-        "text_W3VkUx": {
-          "type": "text",
-          "settings": {
-            "text": "<em>Elevate your Every Move</em>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_T9tTyg",
-        "text_W3VkUx"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_nnvoy2nnvoy2nnvo.png",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Get free nationwide shipping on all orders over ₱1,499</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Not the right fit? We offer free size exchanges within 7 days</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
+        "sku_PbhK6i": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
+        "title": {
+          "type": "title",
           "settings": {}
+        },
+        "inventory_mtEKNN": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -121,6 +44,10 @@
             "picker_type": "button",
             "swatch_shape": "circle"
           }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -137,25 +64,26 @@
         }
       },
       "block_order": [
-        "title",
+        "sku_PbhK6i",
         "description",
-        "caption",
         "price",
-        "quantity_selector",
+        "title",
+        "inventory_mtEKNN",
         "variant_picker",
+        "quantity_selector",
         "buy_buttons",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "stacked",
         "mobile_thumbnails": "hide",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -179,12 +107,65 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_6eyMBJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bJLVWq": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐",
+            "text": "<p><strong>\"My new summer staple!\"</strong></p><p><br/><em>I absolutely adore my new [White Floral Flowy Summer Dress] from Boho Chic Manila! The fabric is incredibly soft and light, perfect for our hot weather here in the Philippines. It drapes beautifully, and the floral print is even prettier in person. I feel effortlessly stylish and comfortable every time I wear it. It's quickly become my go-to for weekend brunches and beach trips!</em><br/><br/>- Sofia L.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dfUGUM": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐",
+            "text": "<p><strong>\"Effortless elegance, exceptional comfort.\"</strong></p><p><br/><em>The [Solid Navy Summer Dress] I bought from Boho Chic Manila is a dream! The material is so breathable, and the fit is just perfect – flattering without being restrictive. I love how easily I can dress it up with accessories or keep it casual. It's truly a versatile piece that embodies comfort and elegance. Highly recommend for anyone looking for chic, easy-to-wear pieces.</em><br/><br/>- Isabella C.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FXhq7k": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐",
+            "text": "<p><strong>\"Stunning quality, unique style.\"<br/></strong><em><br/>I'm so impressed with the [Button-Down Linen Shirt] from Boho Chic Manila. The linen feels luxurious, and the craftsmanship is evident in every detail. It has that perfect relaxed yet refined vibe that’s hard to find. It's become a favorite for both casual outings and more dressed-up occasions. Plus, their designs truly stand out – they capture that unique Boho Chic essence beautifully!<br/><br/>- Chloe M.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bJLVWq",
+        "column_dfUGUM",
+        "column_FXhq7k"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "What other people say about Boho Chic Manila",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner_k3fRnW",
-    "multicolumn",
     "main",
-    "related-products"
+    "related-products",
+    "multicolumn_6eyMBJ"
   ]
 }
